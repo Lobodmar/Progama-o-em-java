@@ -1,0 +1,19 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+class Produto {
+   String nome;
+   double preco;
+   int quantidadeEmEstoque;
+
+   Produto(String var1, double var2, int var4) {
+      this.nome = var1;
+      this.preco = var2;
+      this.quantidadeEmEstoque = var4;
+   }
+
+   void exibirInformacoes() {
+      System.out.println("Nome: " + this.nome);
+      System.out.println("Preço: R$ " + this.preco);
+      System.out.println("Quantidade em estoque: " + this.quantidadeEmEstoque);
+      System.out.println();
+   }
+}
