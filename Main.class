@@ -1,0 +1,12 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+public class Main {
+   public Main() {
+   }
+
+   public static void main(String[] var0) {
+      Produto var1 = new Produto("Mouse Gamer", 89.9, 15);
+      Produto var2 = new Produto("Teclado Mecânico", 249.9, 8);
+      var1.exibirInformacoes();
+      var2.exibirInformacoes();
+   }
+}
